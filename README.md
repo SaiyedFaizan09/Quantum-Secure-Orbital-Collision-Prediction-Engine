@@ -34,7 +34,6 @@ To compile and run this true mathematical simulation on your local machine, you 
     *   [tiny-AES-c](https://github.com/kokke/tiny-AES-c): The `aes.h` and `aes.c` files must be placed inside the `cpp_core/` directories.
 5. **API Accounts:**
     *   A registered account at [Space-Track.org](https://www.space-track.org/) for live orbital data.
-    *   A Google Gemini API Key for the Generative AI forensics.
 
 ## 🛠️ Setup and Installation Process
 

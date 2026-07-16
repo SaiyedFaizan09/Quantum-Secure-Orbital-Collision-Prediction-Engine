@@ -56,6 +56,7 @@ pip install python-dotenv pybind11
 ```
 
 4. Compile the C++ Cryptographic Cores Because this architecture mixes pure C (tiny-AES-c) with C++ (liboqs and pybind11), the headers utilize extern "C" blocks to prevent C++ name mangling.
+Create a folder named 'build' in root directory 
 Open your x64 Native Tools Command Prompt for VS, navigate to the project's root build/ directory, and execute the CMake blueprint:
 ```bash
 cd build

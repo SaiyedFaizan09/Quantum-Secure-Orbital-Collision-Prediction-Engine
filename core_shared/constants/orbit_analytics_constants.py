@@ -1,0 +1,1 @@
+DANGER_RADIUS_KM = 200.0  # Flag any debris within a 50km radius as a threat

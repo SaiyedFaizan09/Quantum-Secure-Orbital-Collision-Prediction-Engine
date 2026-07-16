@@ -1,0 +1,29 @@
+# Security
+.env
+
+# C++ Build Files
+build/
+CMakeCache.txt
+*.pyd
+*.obj
+*.lib
+*.exp
+*.o
+*.so
+*.dll
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Data and Logs
+logs/
+space_station_node/data/
+
+# VSCode
+.vscode
+.vs

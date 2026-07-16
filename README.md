@@ -10,7 +10,6 @@ Instead of relying on Earth-based servers to calculate orbital threats, this sof
 *   **Predictive Analytics (Spatial Proximity):** Parses TLE data to calculate exact X, Y, and Z spatial coordinates, applying mathematical distance filters to detect space debris entering the ISS "danger radius".
 *   **True Hybrid Post-Quantum Cryptography:** Secures the telemetry downlink using **Kyber-768** (Key Encapsulation Mechanism) and **AES-256** (Symmetric Encryption) bridged natively in C++.
 *   **Real-Time #SecOps Benchmarking:** Validates the system for radiation-hardened spacecraft hardware by actively tracking C++ execution time (in microseconds) and RAM footprints during quantum encryption.
-*   **#GenerativeAI Forensic Reporting:** Earth Ground Control utilizes the **Google Gemini 1.5 Flash API** to automatically generate formal, human-readable forensic reports from the decrypted threat data, saving them to a secure `logs/` directory.
 
 ## 📂 Architecture & Directory Structure
 

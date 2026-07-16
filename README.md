@@ -19,7 +19,6 @@ The system is split into two networked nodes communicating via local sockets to 
 *   **`ground_station_node/`**: The Receiving Node. Generates the initial Kyber key pair, decapsulates the matrix, decrypts the AES payload, and triggers the AI forensic reporter.
 *   **`cpp_core/`**: Contains the raw C++ cryptographic algorithms (`liboqs` and `tiny-AES-c`) and the `pybind11` wrapper scripts.
 *   **`data/`**: Caches the raw TLE JSON data locally to adhere to Space-Track API throttling limits (max 30 requests per minute).
-*   **`logs/`**: Securely archives the Gemini-generated AI forensic reports.
 *   **`build/`**: The CMake output directory for the compiled `.pyd` Python binaries.
 
 ## ⚙️ Prerequisites and Dependencies

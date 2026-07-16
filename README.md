@@ -41,16 +41,19 @@ To compile and run this true mathematical simulation on your local machine, you 
 ```bash
 git clone https://github.com/YourUsername/quantum_orbital_engine.git
 cd quantum_orbital_engine
+```
 
 2. Configure Environment Variables (.env) Create a .env file at the root of the project directory. Do not commit this file to GitHub! Add the following credentials:
 ```bash
 # Space-Track Credentials
 SPACE_TRACK_USERNAME=your_email@domain.com
 SPACE_TRACK_PASSWORD=your_password
+```
 
 3. Install Python Dependencies Install the necessary Python bridges and AI tools using PIP:
 ```bash
 pip install python-dotenv pybind11
+```
 
 4. Compile the C++ Cryptographic Cores Because this architecture mixes pure C (tiny-AES-c) with C++ (liboqs and pybind11), the headers utilize extern "C" blocks to prevent C++ name mangling.
 Open your x64 Native Tools Command Prompt for VS, navigate to the project's root build/ directory, and execute the CMake blueprint:
@@ -58,6 +61,7 @@ Open your x64 Native Tools Command Prompt for VS, navigate to the project's root
 cd build
 cmake ..
 cmake --build .
+```
 (Note: This will generate quantum_crypto.pyd and quantum_earth.pyd inside build/Debug/).
 
 🚀 How to Run the Simulation
@@ -65,11 +69,13 @@ To execute the end-to-end two-way cryptographic handshake, you must run both nod
 Terminal 1: Start Earth Ground Control
 ```bash
 python -m ground_station_node.main_ground
+```
 
 Earth will stand by, generate the true Kyber-768 key matrix, and listen on the socket.
 Terminal 2: Start the Space Station Edge Node
 ```bash
 python -m space_station_node.main_edge
+```
 
 The Edge Node will ingest the TLE data, detect collisions, execute the true C++ hardware footprint benchmark, mathematically scramble the alert using Earth's key, and beam it down.
 Once successfully decrypted, Ground Control will output the #ThreatIntelligence and save a newly generated Gemini AI Forensic Report directly to the logs/ directory!

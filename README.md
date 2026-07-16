@@ -39,7 +39,7 @@ To compile and run this true mathematical simulation on your local machine, you 
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/quantum_orbital_engine.git
+git clone https://github.com/SaiyedFaizan09/Quantum-Secure-Orbital-Collision-Prediction-Engine.git
 cd quantum_orbital_engine
 ```
 

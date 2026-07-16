@@ -78,4 +78,4 @@ python -m space_station_node.main_edge
 ```
 
 The Edge Node will ingest the TLE data, detect collisions, execute the true C++ hardware footprint benchmark, mathematically scramble the alert using Earth's key, and beam it down.
-Once successfully decrypted, Ground Control will output the #ThreatIntelligence and save a newly generated Gemini AI Forensic Report directly to the logs/ directory!
+Once successfully decrypted, Ground Control will output the #ThreatIntelligence.

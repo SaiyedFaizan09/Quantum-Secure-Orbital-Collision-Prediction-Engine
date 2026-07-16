@@ -66,12 +66,14 @@ cmake --build .
 
 🚀 How to Run the Simulation
 To execute the end-to-end two-way cryptographic handshake, you must run both nodes simultaneously.
+
 Terminal 1: Start Earth Ground Control
 ```bash
 python -m ground_station_node.main_ground
 ```
 
 Earth will stand by, generate the true Kyber-768 key matrix, and listen on the socket.
+
 Terminal 2: Start the Space Station Edge Node
 ```bash
 python -m space_station_node.main_edge

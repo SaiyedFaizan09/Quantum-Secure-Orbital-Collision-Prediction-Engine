@@ -64,6 +64,11 @@ cmake --build .
 ```
 (Note: This will generate quantum_crypto.pyd and quantum_earth.pyd inside build/Debug/).
 
+5. You can chnage dangourse redius from core_shared/constants/orbit_analytics_constants.py
+```bash
+DANGER_RADIUS_KM = 200.0  # Flag any debris within a 200km radius as a threat
+```
+
 🚀 How to Run the Simulation
 To execute the end-to-end two-way cryptographic handshake, you must run both nodes simultaneously.
 
